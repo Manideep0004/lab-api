@@ -1,0 +1,16 @@
+@"
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+"@ | Set-Content -Path .\.gitignore -Encoding utf8
+
+@"
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.git
+.gitignore
+"@ | Set-Content -Path .\.dockerignore -Encoding utf8
